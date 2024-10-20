@@ -1,0 +1,7 @@
+[package]
+name = "test_base58"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bs58 = "0.5.1"

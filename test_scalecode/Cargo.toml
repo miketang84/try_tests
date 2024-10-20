@@ -1,0 +1,8 @@
+[package]
+name = "test_scalecode"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hex = "0.4.3"
+parity-scale-codec = { version = "3.6.12", features = ["derive"] }

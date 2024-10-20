@@ -1,0 +1,9 @@
+[package]
+name = "test_accountid"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hex = "0.4.3"
+sp-core = "34.0"
+sp-runtime = "39.0"
