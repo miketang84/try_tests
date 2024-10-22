@@ -1,11 +1,12 @@
 [package]
-name = "test_scalecode"
+name = "test_signature"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
 hex = "0.4.3"
-parity-scale-codec = { version = "3.6.12", features = ["derive"] }
+sp-core = "34.0.0"
+
 
 [[bin]]
 name = "m1"
@@ -14,7 +15,3 @@ path = "src/m1.rs"
 [[bin]]
 name = "m2"
 path = "src/m2.rs"
-
-[[bin]]
-name = "m3"
-path = "src/m3.rs"

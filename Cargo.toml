@@ -1,0 +1,11 @@
+[workspace]
+members = [
+  "test_accountid",
+  "test_scalecode",
+  "test_base58",
+  "test_subxt",
+  "test_yamux",
+  "test_signature",
+
+]
+resolver = "2"
